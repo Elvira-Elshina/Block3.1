@@ -10,41 +10,39 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <button class="but nav__but-burger">
-                <img class="nav__img-burger" src="images/burger.svg" alt="меню">
-            </button>
-            
-            <img class="nav__img-divider-1" src="images/divider.svg" alt="разделительная черта">
-
-            <img class="nav__img-logo" src="images/Group.svg" alt="логотип cps">
-
-            <!-- <img class="nav__img-divider" src="images/divider.svg"> -->
-
-
-            <button class="but nav__but-call">
-                <img class="nav__img-call" src="images/call.svg" alt="звонок">
-            </button>
-            <button class="but nav__but-chat">
-                <img class="nav__img-chat" src="images/chat.svg" alt="чат">
-            </button>
-            <button class="but nav__but-profile">
-                <img class="nav__img-profile" src="images/profile.svg" alt="профиль">
-            </button>
-
-            <img class="nav__img-divider" src="images/divider.svg" alt="разделительная черта">
-
-            <button class="but nav__but-repair">
-                <span class="nav__text-repair">Оставить заявку</span><img class="nav__img-repair" src="images/repair.svg" alt="настройки"> 
-            </button>
-            <button class="but nav__but-checkstatus">
-                <span class="nav__text-checkstatus">Статус ремонта</span><img class="nav__img-checkstatus" src="images/checkstatus.svg" alt="статус ремонта">
-            </button>
+            <div class="nav__container-1">  
+                <button class="button nav__button-burger">
+                    <img class="nav__img-burger" src="images/burger.svg" alt="меню">
+                </button>
+                <p class="nav__img-divider-1"></p>
+                <img class="nav__img-logo" src="images/Group.svg" alt="логотип cps">
+            </div>
+            <div class="nav__container-2">
+                <button class="button nav__button-call">
+                    <img class="nav__img-call" src="images/call.svg" alt="звонок">
+                </button>
+                <button class="button nav__button-chat">
+                    <img class="nav__img-chat" src="images/chat.svg" alt="чат">
+                </button>
+                <button class="button nav__button-profile">
+                    <img class="nav__img-profile" src="images/profile.svg" alt="профиль">
+                </button>
+            </div>
         </nav>
     </header>
     <main class="main">
+       <div class="main__container-nav">
+            <p class="main__img-divider"></p>
+            <button class="button main__button-repair">
+                <span class="main__text-repair">Оставить заявку</span><img class="main__img-repair" src="images/repair.svg" alt="настройки"> 
+            </button>
+            <button class="button main__button-checkstatus">
+                <span class="main__text-checkstatus">Статус ремонта</span><img class="main__img-checkstatus" src="images/checkstatus.svg" alt="статус ремонта">
+            </button>
+        </div>
         <h1 class="main__h1-services">Услуги и сервисы</h1>
         <main class="main__section-services">
-            <a class="links main__devices" href="#">Ремонтируемые устройства</a>
+            <a class="links main__devices main_link--active" href="#">Ремонтируемые устройства</a>
             <a class="links main__add-services" href="#">Дополнительные услуги</a>
             <a class="links main__price" href="#">Цены на услуги</a>
             <a class="links main__adress" href="#">Адреса сервисных центров</a>
@@ -57,7 +55,7 @@
                 <p class="main__text-p">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="main__text-span">, что подтверждает большое количество постоянных клиентов.
                 Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></p>
             
-            <button class="main__but-read-more"><img class="main__img-expand" src="images/expand.png">Читать далее</button>
+            <button class="main__button-read-more"><img class="main__img-expand" src="images/expand.png">Читать далее</button>
             </div>
             <img class="main__img-big-pictire" src="images/big_picture.png">
         </section>
